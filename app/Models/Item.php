@@ -71,16 +71,6 @@ class Item extends Model
     }
 
     /**
-     * brandsとの多対１リレーション定義
-     *
-     * @return belongsTo
-     */
-    public function brand()
-    {
-        return $this->belongsTo(Brand::class);
-    }
-
-    /**
      * item_categoriesとの１対多リレーション定義
      *
      * @return HasMany

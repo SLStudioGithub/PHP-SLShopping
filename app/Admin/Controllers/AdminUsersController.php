@@ -77,7 +77,7 @@ class AdminUsersController extends Controller
     public function create(CreateAdminUserRequest $request)
     {
         // 管理者を新規登録＆取得
-        $adminUser = $this->adminUser->create(
+        $adminUser = $this->adminUser->createAdminUser(
             $request->userId,
             $request->userName,
             $request->password,

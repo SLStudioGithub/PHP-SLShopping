@@ -146,7 +146,7 @@ class AdminUser extends Model
      * @param array $permissionIds
      * @return AdminUser
      */
-    public function create($userId, $userName, $password, $roleIds, $permissionIds)
+    public function createAdminUser($userId, $userName, $password, $roleIds, $permissionIds)
     {
         $adminUser = new AdminUser([
             'username' => $userId,
