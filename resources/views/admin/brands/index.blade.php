@@ -13,13 +13,13 @@
         <div class="col-md-12">
             <div class="box grid-box">
                 <div class="box-header with-border">
-                    <!-- 検索フォーム -->
+                    <!-- ここに 検索フォーム を実装 -->
                 </div>
                 <div class="box-body table-responsive no-padding">
-                    <!-- ブランド情報表示 -->
+                    <!-- ここに ブランド情報表示 を実装 -->
                 </div>
                 <div class="box-footer clearfix">
-                    <!-- ページネーション -->
+                    <!-- ここに ページネーション を実装 -->
                 </div>
             </div>
         </div>
